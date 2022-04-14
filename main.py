@@ -3,7 +3,7 @@ import pandas
 
 screen = turtle.Screen()
 screen.title("Guess the states!")
-screen.setup(725, 491)
+screen.setup(725, 491)  # window size is the same as the dimensions of the states image
 
 bg = "blank_states_img.gif"
 screen.addshape(bg)
